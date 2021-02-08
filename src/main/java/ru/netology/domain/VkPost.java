@@ -8,7 +8,6 @@ public class VkPost {
     private String text; // текст записи
     private int viewsCounter; // счетчик колчиества просмотров поста
     private boolean isAd; // содержит информацию является ли запись рекламой
-    private int attachments []; // содержит список id файлов, добавленных в пост
     private boolean isBookmark; // информация о том, добавил ли текущий пользователь запись в "избранное"
     private boolean isEditAllowed; // Содержит информацию о том, может ли текущай пользователь редактировать пост
     private boolean isDeleteAllowed; // Содержит информацию о том, может ли текущай пользователь удалить пост
