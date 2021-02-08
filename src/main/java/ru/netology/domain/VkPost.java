@@ -12,4 +12,5 @@ public class VkPost {
     private boolean isCommentAllowed; // включает \ отключает возможность комментировать запись
     private boolean isAd; // содержит информацию является ли запись рекламой
     private int attachments []; // содержит список id файлов, добавленных в пост
+    private String creatorId; // идентификатор создателя поста
 }
