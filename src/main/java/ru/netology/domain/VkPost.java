@@ -6,6 +6,7 @@ public class VkPost {
     private String date; // дата и время публикации
     private String creatorId; // идентификатор создателя поста
     private String text; // текст записи
+    private int ownerId; // идентификатор владельца стены, на которой размещена запись
     private int viewsCounter; // счетчик колчиества просмотров поста
     private boolean isAd; // содержит информацию является ли запись рекламой
     private boolean isBookmark; // информация о том, добавил ли текущий пользователь запись в "избранное"
