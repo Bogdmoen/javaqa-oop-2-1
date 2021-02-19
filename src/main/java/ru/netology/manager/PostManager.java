@@ -1,36 +1,23 @@
 package ru.netology.manager;
 
-import ru.netology.domain.VkPost;
+import ru.netology.domain.Post;
 
 public class PostManager {
 
-
-    private String query;
-    private String domain;
-    private int count;
-    private boolean ownerOnly;
-    private int offset;
+    private Post[] posts = new Post[0];
 
 
-    private int ownerId;
-    private int postId;
+    public Post[] searchPost(int ownerId, String domain, String query, boolean ownerOnly, int count, int offset) {
 
-    private VkPost[] posts;
+    // add logic here
 
-    public String searchPost() {
-
-
-        return null;
+        return posts;
     }
 
-    public void deletePost() {
+    public void  deletePost(int ownerId, String postId) {
 
-
+    // add logic here
 
     }
-
-
-
-
 
 }

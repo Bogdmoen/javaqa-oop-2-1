@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class VkPost {
+public class Post {
 
     private String id;  // уникальный идентификатор обьекта
     private String date; // дата и время публикации
